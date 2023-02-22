@@ -1,0 +1,10 @@
+buildscript {
+    configurations.classpath {
+        resolutionStrategy.activateDependencyLocking()
+    }
+}
+
+plugins {
+    id "com.diffplug.spotless" version "6.13.0"
+//    id 'org.springframework.boot' version '3.0.2'
+}
